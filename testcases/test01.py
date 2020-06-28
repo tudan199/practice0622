@@ -24,7 +24,7 @@ class BaiduTest(unittest.TestCase):
         self.py.sendkeys('id','kw',str(self.keys))
         self.py.maxWindows()
         self.py.clickElement('id','su')
-        #百度登录，并判断是否正常登录
+        #百度登录， 并判断是否正常登录
         # self.py.clickElement('name','tj_login')
         # self.py.clickElement('id','TANGRAM__PSP_11__footerULoginBtn')
         # print('用户名为%s,密码为%s'%(readExcel(testfilepath,1,0),readExcel(testfilepath,1,1)))
